@@ -126,5 +126,7 @@ let car = Car()
 car.currentSpeed = 35.0
 car.gear = 3
 print("Car: \(car.description)")
+print("Car: \(car.description)")
+print("Car: \(car.description)")
 
 // We can prevent overrides using the final keyword. Any attempt to override a final method, property, or subscript in a subclass is reported as a compile-time error. 
